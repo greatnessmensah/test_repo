@@ -12,7 +12,6 @@ class Product:
     return self.price * self.quantity
 
 
-
 class TestProduct(unittest.TestCase):
   def test_calculateTotal_positive(self):
     product = Product("T-Shirt", 10.0, 2)
